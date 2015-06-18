@@ -713,8 +713,6 @@ body {
 }
 
 .headshot {
-    border-radius: 0;
-		vertical-align: middle;
 		width: 120px;
 		height: 120px;
 }
