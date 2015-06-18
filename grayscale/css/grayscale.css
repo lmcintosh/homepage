@@ -73,6 +73,38 @@ a:focus {
     font-weight: 400;
 }
 
+
+header {
+    text-align: center;
+    color: #fff;
+    background: #fff;
+}
+
+header .container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+header img {
+    display: block;
+    margin: 0 auto 20px;
+}
+
+header .intro-text .name {
+    display: block;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+header .intro-text .skills {
+    font-size: 1.25em;
+    font-weight: 300;
+}
+
+
+
 .navbar-custom {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
@@ -553,6 +585,7 @@ body {
     line-height: 14px;
 }
 
+
 .timeline>li.timeline-inverted>.timeline-panel {
     float: right;
     padding: 0 20px 0 100px;
@@ -621,6 +654,7 @@ body {
         line-height: 18px;
     }
 
+
     .timeline>li.timeline-inverted>.timeline-panel {
         float: right;
         padding: 0 30px 20px 20px;
@@ -677,6 +711,37 @@ body {
         padding: 0 100px 20px 20px;
     }
 }
+
+.headshot {
+    border-radius: 0;
+		vertical-align: middle;
+		width: 120px;
+		height: 120px;
+}
+
+
+@media(min-width:768px) {
+    .headshot {
+        width: 180px;
+        height: 180px;
+    }
+
+}
+
+@media(min-width:992px) {
+		.headshot {
+				width: 200px;
+				height: 200px;
+		}
+}
+
+@media(min-width:1200px) {
+    .headshot {
+        width: 240px;
+				height: 240px;
+    }
+}
+
 
 
 [id^="togList"],                        /* HIDE CHECKBOX */
